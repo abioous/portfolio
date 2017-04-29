@@ -1,0 +1,39 @@
+@media screen and (max-width:640px) {
+    
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.content {
+        display: flex;
+        flex-direction:column;
+    }
+
+    ul.social {
+        display: flex;
+    }
+
+
+    article.portfolio {
+        display:flex;
+        flex-direction:column;
+    }
+
+    article.portfolio > * {
+        flex:1;
+        padding-left:10%;
+
+    }
+
+    section.contact {
+        display: flex;
+        flex-direction:column;
+    }
+
+
+
+
+}
+

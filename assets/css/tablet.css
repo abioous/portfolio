@@ -1,0 +1,42 @@
+@media screen and (min-width:641px) and (max-width:768px)  {
+
+	header {
+	    display: flex;
+	    justify-content:flex-end;
+	}
+
+	nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+	img.me {
+	    float:left;
+	    margin-right: 2em;
+	}
+
+
+
+	article.portfolio {
+    	display:flex;
+    	flex-wrap:wrap;
+	}
+
+	article.portfolio > * {
+    	flex:50%;
+	}
+
+
+	ul.social {
+    	display: flex;
+    	justify-content:flex-start;
+	}
+
+
+    section.contact {
+        display: flex;
+        flex-direction:column;
+    }
+
+
+}

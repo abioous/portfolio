@@ -1,0 +1,82 @@
+@media screen and (min-width:769px) {
+
+body {
+    display: flex;
+    flex-direction:column;
+}
+
+main {
+    flex:1;
+    display: flex;
+    justify-content:center;
+}
+
+nav ul {
+    display:flex;
+    flex-flow: row grow;
+}
+
+
+nav ul > * {
+    flex:1 0;
+}
+
+header {
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+.content {
+    align-self:flex-start;
+    min-width:650px;
+}
+
+
+aside {
+    width:270px;
+    text-align: center;
+    align-self:flex-start;
+}
+
+
+ul.social {
+    display: flex;
+    justify-content:center;
+}
+
+.contact {
+    display: flex;
+    flex-direction:column;
+}
+
+input[type=submit] {
+    align-self:flex-start;
+}
+
+
+article.portfolio {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+article.portfolio > * {
+    flex:50%;
+}
+
+
+
+ul.portfolio{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+img.me {
+    float:left;
+    margin-right: 2em;
+}
+
+
+
+}
